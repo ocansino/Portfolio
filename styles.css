@@ -23,15 +23,17 @@ body {
 /* Sidebar/left column */
 .side {
   flex: 30%; /* Set the width of the sidebar */
-  background-color: #ddd; /* Grey background color */
-  padding: 20px; /* Some padding */ 
+  background-color: #333; /* Grey background color */
+  padding: 20px; /* Some padding */
+  color: white; 
 }
 
 /* Main column */
 .main { 
   flex: 70%; /* Set the width of the main content */
-  background-color: #f1f1f1; /* White background color */
+  background-color: #333; /* White background color */
   padding: 20px; /* Some padding */
+  color: white;
 }
 
 /* Style the top navigation bar */
@@ -84,11 +86,106 @@ body {
   }
 }
 
-
+.navbarUnderline {
+  overflow: hidden; /* Hide overflow */
+  background-color: #CE2026; /* Dark background color */
+  padding: 10px; /* Some padding */
+}
 
 /* Fake image, just for this example */
 .fakeimg {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+    width: 100%;
+}
+
+.smartphone {
+    width: 360px;
+    height: 640px;
+    border: 16px solid #333;
+    border-radius: 36px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.smartphone .content {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Rotated Box Styling */
+.smartphone .rotated-box {
+    width: 80%;
+    height: 80%;
+    background-color: rgba(100, 123, 255, 0.2); /* Transparent blue */
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: rotate(15deg);
+    border-radius: 10px;
+    z-index: -1;
+}
+
+/* Login Box Styling */
+.login-box {
+    width: 80%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.login-box .textbox {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-box .textbox input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.login-box .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.login-box .btn:hover {
+    background-color: #555;
 }

@@ -1,0 +1,179 @@
+/* menuStyles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('cyberpunk-city.jpg') no-repeat center center fixed;
+    background-size: cover;
+    #background-position: 10px center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(1px);
+}
+
+.sidebar {
+    width: 40%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #ff0000;
+}
+
+.sidebar p {
+    margin: 10px 0;
+}
+
+.sidebar button {
+    background: #ff0000;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.sidebar h2 {
+    margin-top: 20px;
+    #text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.main-content {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.login-box {
+    width: 80%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type="text"], textarea {
+
+  background-color : rgba(0, 0, 0, 0.1);
+
+}
+
+input[type="password"], textarea {
+
+  background-color : rgba(0, 0, 0, 0.1); 
+
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.login-box .textbox {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.login-box .textbox input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: white;
+}
+
+.login-box .btn {
+    width: 100%;
+    padding: 10px;
+    background: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.login-box .btn:hover {
+    background-color: #f00000;
+}
+
+.setup-container {
+    position: relative;
+}
+
+.setup {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 650px;
+    height: 300px;
+    position: absolute;
+    top: 250px;
+    left: -20px;
+    z-index: 1;
+}
+
+.setup h2 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    color: #ff0000;
+}
+
+.setup ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.setup ul li {
+    margin: 10px 0;
+}
+
+.options {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 650px;
+    height: 100px;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    z-index: 1;
+}
+
+.options h2 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    color: #ff0000;
+}

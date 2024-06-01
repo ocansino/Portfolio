@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #height: 100vh;
+    background: url('cyberpunk-2077-legendary-optics.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    #background-position: 40px center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    #overflow: hidden;
+    
+}
+
+
+
+.container-middle {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    
+}
+
+.middlebar {
+    width: 1000px;
+    padding: 20px;
+
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.middlebar h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #ff0000;
+}
+
+.middlebar h2 {
+    margin: 0;
+    font-size: 24px;
+    padding: 10px;
+    color: #ff0000;
+}
+
