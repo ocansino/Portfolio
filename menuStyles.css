@@ -11,7 +11,7 @@ body {
     color: #ffffff;
     font-family: Arial, sans-serif;
     margin: 0;
-    #overflow: hidden;
+    overflow: hidden;
     
 }
 
@@ -125,7 +125,8 @@ body {
     right: 0px;
     top: 0px;
     bottom: 0px;
-    width: 300px;
+    #width: 300px;
+    width: 25%;
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
@@ -133,7 +134,9 @@ body {
 }
 
 .setup-container {
-    position: relative;
+    position: absolute;
+    #width: 35%;
+
 }
 
 .setup {
@@ -142,6 +145,7 @@ body {
     background: rgba(0, 0, 0, 0.8);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     width: 355px;
+    #width: 100%;
     height: 220px;
     position: absolute;
     top: -350px;
